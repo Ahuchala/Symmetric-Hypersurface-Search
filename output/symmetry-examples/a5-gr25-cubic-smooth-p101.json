@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "model": "/Users/ahuchala/Documents/GitHub/Griffiths-Dwork-Reduction/output/symmetry-examples/a5-gr25-cubic.json",
+  "model_sha256": "f432cda54710e15c9442074795917f6b65f8452e9b07623c31aca6427275d092",
+  "prime": 101,
+  "charts": {
+    "0,1": {
+      "status": "singular_chart",
+      "pivot": [
+        0,
+        1
+      ],
+      "embedding": {
+        "characteristic": 101,
+        "embedding": "rational"
+      },
+      "chart_polynomial_terms": 38,
+      "singular_ideal_is_unit": false
+    }
+  },
+  "status": "singular_special_fibre",
+  "total_charts": 10,
+  "characteristic_zero_conclusion": "inconclusive; a singular reduction does not prove characteristic-zero singularity"
+}

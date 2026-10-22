@@ -1,0 +1,273 @@
+{
+  "schema": 1,
+  "candidate": {
+    "id": "68ba94903556",
+    "group": "small:6:1",
+    "order": 6,
+    "k": 1,
+    "n": 2,
+    "d": 3,
+    "constituents": [
+      3
+    ],
+    "linear_character": 2,
+    "section_dimension": 4,
+    "multiplicity": 1,
+    "projective_kernel_order": 1,
+    "linear_span_projective_kernel_order": null,
+    "status": "semi_invariant_section_exists; hypersurface_faithfulness_and_smoothness_unchecked",
+    "character_values": [
+      "2",
+      "0",
+      "-1"
+    ],
+    "linear_character_values": [
+      "1",
+      "-1",
+      "1"
+    ]
+  },
+  "k": 1,
+  "n": 2,
+  "d": 3,
+  "field_conductor": 1,
+  "coordinate_convention": "Generator columns act on the n-dimensional coordinate representation W. Plucker columns are increasing k-subsets of 0,...,n-1. The geometric action is the dual action.",
+  "basis_strategy": "original",
+  "basis_attempts": [
+    {
+      "basis": "original",
+      "status": "verified",
+      "nonzero_terms": 2,
+      "coefficient_complexity": 3
+    },
+    {
+      "basis": "order-3-eigenbasis",
+      "status": "verified",
+      "nonzero_terms": 2,
+      "coefficient_complexity": 3
+    },
+    {
+      "basis": "order-3-normalizer-basis",
+      "status": "verified",
+      "nonzero_terms": 2,
+      "coefficient_complexity": 3
+    }
+  ],
+  "change_of_basis": [
+    [
+      [
+        "1"
+      ],
+      [
+        "0"
+      ]
+    ],
+    [
+      [
+        "0"
+      ],
+      [
+        "1"
+      ]
+    ]
+  ],
+  "plucker_indices": [
+    [
+      0
+    ],
+    [
+      1
+    ]
+  ],
+  "terms": [
+    {
+      "monomial": [
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "1"
+      ]
+    },
+    {
+      "monomial": [
+        0,
+        1,
+        1
+      ],
+      "coefficient": [
+        "-1"
+      ]
+    }
+  ],
+  "invariant_basis": [
+    [
+      {
+        "monomial": [
+          0,
+          0,
+          1
+        ],
+        "coefficient": [
+          "1"
+        ]
+      },
+      {
+        "monomial": [
+          0,
+          1,
+          1
+        ],
+        "coefficient": [
+          "-1"
+        ]
+      }
+    ]
+  ],
+  "generators": [
+    [
+      [
+        [
+          "-1"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      [
+        [
+          "0"
+        ],
+        [
+          "1"
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          "0"
+        ],
+        [
+          "1"
+        ]
+      ],
+      [
+        [
+          "-1"
+        ],
+        [
+          "-1"
+        ]
+      ]
+    ]
+  ],
+  "generator_characters": [
+    [
+      "-1"
+    ],
+    [
+      "1"
+    ]
+  ],
+  "classes": [
+    {
+      "matrix": [
+        [
+          [
+            "1"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "1"
+          ]
+        ]
+      ],
+      "size": 1,
+      "order": 1
+    },
+    {
+      "matrix": [
+        [
+          [
+            "-1"
+          ],
+          [
+            "-1"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "1"
+          ]
+        ]
+      ],
+      "size": 3,
+      "order": 2
+    },
+    {
+      "matrix": [
+        [
+          [
+            "0"
+          ],
+          [
+            "1"
+          ]
+        ],
+        [
+          [
+            "-1"
+          ],
+          [
+            "-1"
+          ]
+        ]
+      ],
+      "size": 2,
+      "order": 3
+    }
+  ],
+  "verification": {
+    "nonzero_section": true,
+    "semi_invariance": "exact_characteristic_zero",
+    "invariant_dimension": 1,
+    "smoothness": "unchecked",
+    "faithfulness_on_hypersurface": "faithful"
+  },
+  "faithfulness_evidence": {
+    "status": "faithful",
+    "method": "Exact characteristic-zero non-fixed-locus witness for every nonidentity conjugacy class on the reduced hypersurface",
+    "charts_checked": 1,
+    "witnesses": [
+      {
+        "class_index": 1,
+        "pivot": [
+          0
+        ],
+        "plucker_index": 1,
+        "nonzero_remainder_terms": 2
+      },
+      {
+        "class_index": 2,
+        "pivot": [
+          0
+        ],
+        "plucker_index": 1,
+        "nonzero_remainder_terms": 1
+      }
+    ],
+    "kernel_order": 1
+  }
+}

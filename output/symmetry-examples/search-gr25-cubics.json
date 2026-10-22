@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "parameters": {
+    "command": "search",
+    "k": 2,
+    "n": 5,
+    "d": 3,
+    "groups": "simple",
+    "reducible": false,
+    "catalogue": "tables",
+    "group": null,
+    "min_order": 2,
+    "max_order": 1000,
+    "max_groups": 1000,
+    "max_representations": 10000,
+    "output": "output/symmetry-examples/search-gr25-cubics.json"
+  },
+  "scope": "Finite bounded GAP catalogue; ordinary linear representations only. Projective representations that do not lift are not enumerated.",
+  "complete": true,
+  "tables_examined": 7,
+  "candidates": [
+    {
+      "id": "f1698c58f31b",
+      "group": "table:A5",
+      "order": 60,
+      "k": 2,
+      "n": 5,
+      "d": 3,
+      "constituents": [
+        5
+      ],
+      "linear_character": 1,
+      "section_dimension": 175,
+      "multiplicity": 2,
+      "projective_kernel_order": 1,
+      "linear_span_projective_kernel_order": null,
+      "status": "semi_invariant_section_exists; hypersurface_faithfulness_and_smoothness_unchecked",
+      "character_values": [
+        "5",
+        "1",
+        "-1",
+        "0",
+        "0"
+      ],
+      "linear_character_values": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    }
+  ],
+  "errors": [],
+  "stop_reason": "catalogue exhausted"
+}

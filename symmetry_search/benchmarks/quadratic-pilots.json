@@ -1,0 +1,68 @@
+{
+  "description": "Single-run exact quadratic construction pilots; timings overlap other tests and are not isolated performance benchmarks. No smoothness claim.",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "source_sha256": {
+    "symmetry_search/quadratics.py": "9c6c46e5f48e3548313764675eb08068dd0cfb69ad3e1c6ade8e0daecc8ee2f7",
+    "symmetry_search/sections.py": "24ce08607b79dc4d6e3e121479d537fa6ca07f19780b23b368d18e60b349411a",
+    "symmetry_search/representations.py": "e22ece77286ad3c17393711d8a03bad0886b959c187a7560bc763ecbd4f51f0a",
+    "symmetry_search/construct.py": "9bcc4f6a9f230278e4ea1489b9c2f6fbc7972188018d9d9f1656383b8c5c7a95",
+    "symmetry_search/models.py": "4387b7e5249c32d39d417ea87e92daddbfb45e9e8bcfb5c38179776c224978bb",
+    "symmetry_search/api.py": "ef071afb5cb84c85bfafe1bf9a8da5974b8685d8526631099f5d3c82be4c7abe",
+    "symmetry_search/search.py": "cd4430994faac21445ec2444665814c151e6db4bc06ad6bdec946480c0d4579a",
+    "symmetry_search/faithfulness.py": "2c438c5b0e40aaa8e0a3f72dc4258f13671ecc4e0c25df9dee70450065fea0de"
+  },
+  "runs": [
+    {
+      "group": "A6",
+      "k": 3,
+      "n": 10,
+      "d": 2,
+      "candidate_index": 0,
+      "seed": 0,
+      "faithfulness_charts": 1,
+      "max_entries": 2000000,
+      "wall_seconds": 20.50479804095812,
+      "wall_scope": "search plus in-process construction and faithfulness",
+      "invariant_basis_seconds": 17.18231595796533,
+      "invariant_dimension": 25,
+      "trials": 25,
+      "coefficient_subfield_degree": 1,
+      "verification": {
+        "nonzero_section": true,
+        "semi_invariance": "exact_characteristic_zero",
+        "invariant_dimension": 25,
+        "smoothness": "unchecked",
+        "faithfulness_on_hypersurface": "faithful"
+      },
+      "model": "output/symmetry-examples/a6-gr310-quadric.json",
+      "model_sha256": "22752465c1e6b3e6de2529d2aa09c1ad2f66d090111702d6b8807e1223bc3a20",
+      "reproduce": "search(3, 10, 2, group=\"A6\")[0].construct(seed=0, faithfulness_charts=1)"
+    },
+    {
+      "group": "A7",
+      "k": 3,
+      "n": 10,
+      "d": 2,
+      "candidate_index": 0,
+      "seed": 0,
+      "faithfulness_charts": 0,
+      "max_entries": 2000000,
+      "wall_seconds": 126.51437195809558,
+      "wall_scope": "CLI process startup and construction; excludes search",
+      "invariant_basis_seconds": 110.07759520900436,
+      "invariant_dimension": 7,
+      "trials": 7,
+      "coefficient_subfield_degree": 2,
+      "verification": {
+        "nonzero_section": true,
+        "semi_invariance": "exact_characteristic_zero",
+        "invariant_dimension": 7,
+        "smoothness": "unchecked",
+        "faithfulness_on_hypersurface": "unchecked"
+      },
+      "model": "output/symmetry-examples/a7-gr310-quadric.json",
+      "model_sha256": "4ba519b3e3359dba9aa459d10681235488521cc9ab211d4623795e5ee08cd002",
+      "reproduce": "search(3, 10, 2, group=\"A7\")[0].construct(seed=0, faithfulness_charts=0)"
+    }
+  ]
+}

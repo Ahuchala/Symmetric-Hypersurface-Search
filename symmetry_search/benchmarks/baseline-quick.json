@@ -1,0 +1,1033 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-06T02:41:13.046945+00:00",
+  "settings": {
+    "profile": "quick",
+    "repeats": 3,
+    "timeout_seconds": 60.0
+  },
+  "suite_fingerprint": "1b3990396bcfb12060ed749529f7c0cd4ebc217cb287234bfe4bdfb315050d7f",
+  "git_commit": "c6c287482acfc1380ad8293fd8c3b84d487d5b7a",
+  "source_sha256": {
+    "symmetry_search/__init__.py": "7c8357d516219264b0d6dcd709a2bf8da87280e8088dd983630d00dda24bb53f",
+    "symmetry_search/api.py": "d6d0ab6ea04f6a1a64b2bb66c489b5bff38038f03abb870e3b073364d9244d86",
+    "symmetry_search/benchmark.py": "bd3ca344000cb2a9c8a06799bfbf8fe5acafe4ecb27a612c6811ef800075c921",
+    "symmetry_search/common.py": "80ec7eee37afe17f182c0330021cd5ff25e0c86ab40e15dc2ba77b83303ce41c",
+    "symmetry_search/construct.py": "b41d55a824a3d796e9622df331d2abfe23549052385412133d94d9a51f922820",
+    "symmetry_search/faithfulness.py": "2c438c5b0e40aaa8e0a3f72dc4258f13671ecc4e0c25df9dee70450065fea0de",
+    "symmetry_search/models.py": "5afaddd9908bcff11bfb490aa0a4df80a3bc70840f8a460a956761a93b081de0",
+    "symmetry_search/representations.py": "e22ece77286ad3c17393711d8a03bad0886b959c187a7560bc763ecbd4f51f0a",
+    "symmetry_search/search.py": "cd4430994faac21445ec2444665814c151e6db4bc06ad6bdec946480c0d4579a",
+    "symmetry_search/sections.py": "24ce08607b79dc4d6e3e121479d537fa6ca07f19780b23b368d18e60b349411a",
+    "symmetry_search/smoothness.py": "9afac67ec131b374d8567ed5bb2b553ceb2bb343de82fad7861684f3a879c4b5",
+    "symmetry_search/test_api.py": "3501b062f5b4371716ff272447cd39db903558fe811b91210ec969537c4575f7",
+    "symmetry_search/test_regression.py": "bdafe831efe4be9587208f8c5af524c9b43fab59e8cc201a3b9a5947f3e0f75f",
+    "symmetry_search/test_workflow.py": "c6e30cdded5e9c6c9e5e8bb76adf143eb428741c8e7449bd0cc2cf9cd9c33de8",
+    "symmetry_search/testing.py": "4dcfc744727744b9f27ecb3e12f90fdc137fbb2c1f151eb7ad49fda92354ed43"
+  },
+  "environment": {
+    "sage": "10.9",
+    "python": "3.14.3",
+    "system": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm"
+  },
+  "timing_policy": "Fresh worker each sample; no checkpoint reuse; no warmup; sequential cases.",
+  "passed": true,
+  "cases": [
+    {
+      "id": "gr24-symplectic:0,1",
+      "prime": 0,
+      "pivot": [
+        0,
+        1
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "0e07f51e420a9690fd72b9b82ac664c9051a1c34554dc70b3578113beecca7a2",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              1
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.029141416074708104,
+          "wall_seconds": 1.8422501250170171
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              1
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.028478125110268593,
+          "wall_seconds": 1.849358124891296
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              1
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.028708541998639703,
+          "wall_seconds": 1.824086541775614
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.028708541998639703,
+      "median_wall_seconds": 1.8422501250170171
+    },
+    {
+      "id": "gr24-symplectic:0,2",
+      "prime": 0,
+      "pivot": [
+        0,
+        2
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "0e07f51e420a9690fd72b9b82ac664c9051a1c34554dc70b3578113beecca7a2",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              2
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.029032541904598475,
+          "wall_seconds": 1.8498915419913828
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              2
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.029338249936699867,
+          "wall_seconds": 1.8323685000650585
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              2
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.029108415823429823,
+          "wall_seconds": 1.8453606660477817
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.029108415823429823,
+      "median_wall_seconds": 1.8453606660477817
+    },
+    {
+      "id": "gr24-symplectic:0,3",
+      "prime": 0,
+      "pivot": [
+        0,
+        3
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "0e07f51e420a9690fd72b9b82ac664c9051a1c34554dc70b3578113beecca7a2",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.028872125083580613,
+          "wall_seconds": 1.846581625053659
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.028945916797965765,
+          "wall_seconds": 1.8519462919794023
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.030023541999980807,
+          "wall_seconds": 1.8705163751728833
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.028945916797965765,
+      "median_wall_seconds": 1.8519462919794023
+    },
+    {
+      "id": "gr24-symplectic:1,2",
+      "prime": 0,
+      "pivot": [
+        1,
+        2
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "0e07f51e420a9690fd72b9b82ac664c9051a1c34554dc70b3578113beecca7a2",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              1,
+              2
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.02903579198755324,
+          "wall_seconds": 1.8575170000549406
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              1,
+              2
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.02886916697025299,
+          "wall_seconds": 1.8484304160811007
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              1,
+              2
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.02895850013010204,
+          "wall_seconds": 1.845144165912643
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.02895850013010204,
+      "median_wall_seconds": 1.8484304160811007
+    },
+    {
+      "id": "gr24-symplectic:1,3",
+      "prime": 0,
+      "pivot": [
+        1,
+        3
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "0e07f51e420a9690fd72b9b82ac664c9051a1c34554dc70b3578113beecca7a2",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              1,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.028735207859426737,
+          "wall_seconds": 1.8485868328716606
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              1,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.02906666579656303,
+          "wall_seconds": 1.8549973331391811
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              1,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.029020291985943913,
+          "wall_seconds": 1.8475511251017451
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.029020291985943913,
+      "median_wall_seconds": 1.8485868328716606
+    },
+    {
+      "id": "gr24-symplectic:2,3",
+      "prime": 0,
+      "pivot": [
+        2,
+        3
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "0e07f51e420a9690fd72b9b82ac664c9051a1c34554dc70b3578113beecca7a2",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              2,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.028900292003527284,
+          "wall_seconds": 1.8546295419801027
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              2,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.02922695898450911,
+          "wall_seconds": 1.866512916982174
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              2,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.029133083065971732,
+          "wall_seconds": 1.8404561670031399
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.029133083065971732,
+      "median_wall_seconds": 1.8546295419801027
+    },
+    {
+      "id": "gr24-boundary-singular:2,3",
+      "prime": 0,
+      "pivot": [
+        2,
+        3
+      ],
+      "expected": "singular_chart",
+      "model_sha256": "f50699868db3a9341c0d54c358e1647430b73aa1b1df0f8d276abb80696ce66a",
+      "samples": [
+        {
+          "status": "singular_chart",
+          "evidence": {
+            "status": "singular_chart",
+            "pivot": [
+              2,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": false
+          },
+          "calculation_seconds": 0.029276124900206923,
+          "wall_seconds": 1.8525882500689477
+        },
+        {
+          "status": "singular_chart",
+          "evidence": {
+            "status": "singular_chart",
+            "pivot": [
+              2,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": false
+          },
+          "calculation_seconds": 0.029519541887566447,
+          "wall_seconds": 1.8422602908685803
+        },
+        {
+          "status": "singular_chart",
+          "evidence": {
+            "status": "singular_chart",
+            "pivot": [
+              2,
+              3
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 2,
+            "singular_ideal_is_unit": false
+          },
+          "calculation_seconds": 0.0320481660310179,
+          "wall_seconds": 1.8626747499220073
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.029519541887566447,
+      "median_wall_seconds": 1.8525882500689477
+    },
+    {
+      "id": "conic-Q:0",
+      "prime": 0,
+      "pivot": [
+        0
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "4bac99ad2b4960aa062c1adf3c27463c673d0f0fe2add6b951b1a1794963aff0",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.0290311670396477,
+          "wall_seconds": 1.8707837499678135
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.029174999799579382,
+          "wall_seconds": 1.8629218752030283
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.029141500126570463,
+          "wall_seconds": 1.875760291935876
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.029141500126570463,
+      "median_wall_seconds": 1.8707837499678135
+    },
+    {
+      "id": "conic-bad-prime:0",
+      "prime": 2,
+      "pivot": [
+        0
+      ],
+      "expected": "singular_chart",
+      "model_sha256": "4bac99ad2b4960aa062c1adf3c27463c673d0f0fe2add6b951b1a1794963aff0",
+      "samples": [
+        {
+          "status": "singular_chart",
+          "evidence": {
+            "status": "singular_chart",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 2,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": false
+          },
+          "calculation_seconds": 0.0417540839407593,
+          "wall_seconds": 1.8638645419850945
+        },
+        {
+          "status": "singular_chart",
+          "evidence": {
+            "status": "singular_chart",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 2,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": false
+          },
+          "calculation_seconds": 0.03998087509535253,
+          "wall_seconds": 1.8484414999838918
+        },
+        {
+          "status": "singular_chart",
+          "evidence": {
+            "status": "singular_chart",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 2,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 3,
+            "singular_ideal_is_unit": false
+          },
+          "calculation_seconds": 0.04215366602875292,
+          "wall_seconds": 1.8563141250051558
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.0417540839407593,
+      "median_wall_seconds": 1.8563141250051558
+    },
+    {
+      "id": "nonreduced-point:1",
+      "prime": 0,
+      "pivot": [
+        1
+      ],
+      "expected": "singular_chart",
+      "model_sha256": "2cf5c6e58e29a0f1457a7d507027cd9ab2f8ccd9c3b1d547b2e24d443fcc78a8",
+      "samples": [
+        {
+          "status": "singular_chart",
+          "evidence": {
+            "status": "singular_chart",
+            "pivot": [
+              1
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 1,
+            "singular_ideal_is_unit": false
+          },
+          "calculation_seconds": 0.01959204184822738,
+          "wall_seconds": 1.849427584093064
+        },
+        {
+          "status": "singular_chart",
+          "evidence": {
+            "status": "singular_chart",
+            "pivot": [
+              1
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 1,
+            "singular_ideal_is_unit": false
+          },
+          "calculation_seconds": 0.01952895801514387,
+          "wall_seconds": 1.8589964169077575
+        },
+        {
+          "status": "singular_chart",
+          "evidence": {
+            "status": "singular_chart",
+            "pivot": [
+              1
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 1,
+            "singular_ideal_is_unit": false
+          },
+          "calculation_seconds": 0.019592334050685167,
+          "wall_seconds": 1.8672762080095708
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.01959204184822738,
+      "median_wall_seconds": 1.8589964169077575
+    },
+    {
+      "id": "empty-chart:0",
+      "prime": 0,
+      "pivot": [
+        0
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "f8b2cf026a364bf17bea32c5116555cd0cf6f1ff3d8e0efb71b7fa86aded6097",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 1,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.019559582928195596,
+          "wall_seconds": 1.877882458968088
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 1,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.01975912507623434,
+          "wall_seconds": 1.8387658749707043
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 0
+            },
+            "chart_polynomial_terms": 1,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.019491499988362193,
+          "wall_seconds": 1.8064479161985219
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.019559582928195596,
+      "median_wall_seconds": 1.8387658749707043
+    },
+    {
+      "id": "zero-reduction:0",
+      "prime": 3,
+      "pivot": [
+        0
+      ],
+      "expected": "invalid_reduction",
+      "model_sha256": "63b6b7140d8dd5505317a0766f676d31a19504b3f80a4880664ff728144d0ce8",
+      "samples": [
+        {
+          "status": "invalid_reduction",
+          "evidence": {
+            "status": "invalid_reduction",
+            "reason": "The whole section reduces to zero",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 3,
+              "embedding": "rational"
+            }
+          },
+          "calculation_seconds": 0.03916149982251227,
+          "wall_seconds": 1.831883791135624
+        },
+        {
+          "status": "invalid_reduction",
+          "evidence": {
+            "status": "invalid_reduction",
+            "reason": "The whole section reduces to zero",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 3,
+              "embedding": "rational"
+            }
+          },
+          "calculation_seconds": 0.03828779188916087,
+          "wall_seconds": 1.8684612500946969
+        },
+        {
+          "status": "invalid_reduction",
+          "evidence": {
+            "status": "invalid_reduction",
+            "reason": "The whole section reduces to zero",
+            "pivot": [
+              0
+            ],
+            "embedding": {
+              "characteristic": 3,
+              "embedding": "rational"
+            }
+          },
+          "calculation_seconds": 0.03874966688454151,
+          "wall_seconds": 1.8482865830883384
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.03874966688454151,
+      "median_wall_seconds": 1.8482865830883384
+    },
+    {
+      "id": "a7-p113:0,1,2",
+      "prime": 113,
+      "pivot": [
+        0,
+        1,
+        2
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "3e9aae5babc678e9001eb311cb15fd7547b21bd28f151c0a7022238326c3f00f",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              1,
+              2
+            ],
+            "embedding": {
+              "characteristic": 113,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 32,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.09502066695131361,
+          "wall_seconds": 1.9151036669500172
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              1,
+              2
+            ],
+            "embedding": {
+              "characteristic": 113,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 32,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.09358295914717019,
+          "wall_seconds": 1.9272560412064195
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              0,
+              1,
+              2
+            ],
+            "embedding": {
+              "characteristic": 113,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 32,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.09147958317771554,
+          "wall_seconds": 1.916920708026737
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.09358295914717019,
+      "median_wall_seconds": 1.916920708026737
+    },
+    {
+      "id": "a7-p113:1,4,7",
+      "prime": 113,
+      "pivot": [
+        1,
+        4,
+        7
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "3e9aae5babc678e9001eb311cb15fd7547b21bd28f151c0a7022238326c3f00f",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              1,
+              4,
+              7
+            ],
+            "embedding": {
+              "characteristic": 113,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 34,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.08359316689893603,
+          "wall_seconds": 1.91481037507765
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              1,
+              4,
+              7
+            ],
+            "embedding": {
+              "characteristic": 113,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 34,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.08539712498895824,
+          "wall_seconds": 1.9145695001352578
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              1,
+              4,
+              7
+            ],
+            "embedding": {
+              "characteristic": 113,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 34,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.0902962910477072,
+          "wall_seconds": 1.9639977500773966
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.08539712498895824,
+      "median_wall_seconds": 1.91481037507765
+    },
+    {
+      "id": "a7-p113:7,8,9",
+      "prime": 113,
+      "pivot": [
+        7,
+        8,
+        9
+      ],
+      "expected": "smooth_chart",
+      "model_sha256": "3e9aae5babc678e9001eb311cb15fd7547b21bd28f151c0a7022238326c3f00f",
+      "samples": [
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              7,
+              8,
+              9
+            ],
+            "embedding": {
+              "characteristic": 113,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 43,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.11594070796854794,
+          "wall_seconds": 1.953280999790877
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              7,
+              8,
+              9
+            ],
+            "embedding": {
+              "characteristic": 113,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 43,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.11558683286421001,
+          "wall_seconds": 1.9381831251084805
+        },
+        {
+          "status": "smooth_chart",
+          "evidence": {
+            "status": "smooth_chart",
+            "pivot": [
+              7,
+              8,
+              9
+            ],
+            "embedding": {
+              "characteristic": 113,
+              "embedding": "rational"
+            },
+            "chart_polynomial_terms": 43,
+            "singular_ideal_is_unit": true
+          },
+          "calculation_seconds": 0.11558270803652704,
+          "wall_seconds": 1.9439872500952333
+        }
+      ],
+      "passed": true,
+      "median_calculation_seconds": 0.11558683286421001,
+      "median_wall_seconds": 1.9439872500952333
+    }
+  ]
+}
